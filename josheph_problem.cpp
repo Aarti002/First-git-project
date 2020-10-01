@@ -21,6 +21,6 @@ int main()
 	for(i=0;i<n;i++)
 	v.push_back(i+1);
 	int ans=joshephus(v,k-1,0);
-	cout<<ans<<endl;
+	cout<<"Safe position: "<<ans<<endl;
 	return 0;
 }

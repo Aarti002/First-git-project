@@ -29,7 +29,9 @@ string LCS(string x,string y,int m,int n)
 
 int main()
 {
-	string x="ABCBAuoi",y=x,ans="";
+	string x,y,ans="";
+	cin>>x;
+	y=x;
 	reverse(y.begin(),y.end());
 	int m=x.length(),n=y.length();
 	ans=LCS(x,y,m,n);
